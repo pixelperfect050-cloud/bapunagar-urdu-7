@@ -33,7 +33,7 @@ export default function Home() {
                 that every student reaches their full potential in a safe and engaging environment.
               </p>
               <p>
-                Under the guidance of our Head Teacher, Noorjahan Banu M Shaikh, and our experienced staff of 10 teachers, we focus on academic excellence, 
+                Under the guidance of our Head Teacher, Ms. Noorjahan Banu M. Shaikh, and our experienced staff of 21 teachers, we focus on academic excellence, 
                 cultural values, and empowering our students to become responsible leaders of tomorrow.
               </p>
             </div>
