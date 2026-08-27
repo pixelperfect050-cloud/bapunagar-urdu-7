@@ -1,0 +1,57 @@
+{
+  "photos": [
+    {
+      "id": "1",
+      "url": "https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=2070&auto=format&fit=crop",
+      "title": "School Building",
+      "description": "Our beautiful campus."
+    },
+    {
+      "id": "2",
+      "url": "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=2064&auto=format&fit=crop",
+      "title": "Classroom Activity",
+      "description": "Students engaging in collaborative learning."
+    },
+    {
+      "id": "3",
+      "url": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?q=80&w=2071&auto=format&fit=crop",
+      "title": "Science Fair",
+      "description": "Annual science exhibition 2025."
+    },
+    {
+      "id": "4",
+      "url": "https://images.unsplash.com/photo-1522661067900-ab829854a57f?q=80&w=2070&auto=format&fit=crop",
+      "title": "Library",
+      "description": "Our well-stocked library."
+    },
+    {
+      "id": "5",
+      "url": "https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=2072&auto=format&fit=crop",
+      "title": "Sports Day",
+      "description": "Annual sports meet."
+    },
+    {
+      "id": "6",
+      "url": "https://images.unsplash.com/photo-1511629091441-ee46146481b6?q=80&w=2070&auto=format&fit=crop",
+      "title": "Art Class",
+      "description": "Fostering creativity."
+    }
+  ],
+  "videos": [
+    {
+      "id": "v1",
+      "youtubeId": "dQw4w9WgXcQ",
+      "title": "Welcome to Bapunagar Urdu 7 - Introduction"
+    },
+    {
+      "id": "v2",
+      "youtubeId": "jNQXAC9IVRw",
+      "title": "Annual Function Highlights"
+    },
+    {
+      "id": "v3",
+      "youtubeId": "tPEE9ZwTmy0",
+      "title": "Independence Day Celebration"
+    }
+  ]
+}
