@@ -28,13 +28,13 @@ export default function Home() {
             <div className="about-text">
               <h2 className="section-title" style={{ textAlign: 'left' }}>About Our School</h2>
               <p>
-                Established in 1972, Bapunagar Urdu 7 is a premier Girls Upper Primary School (Grades 6 to 8) located in Rakhiyal, Ahmedabad. 
+                Established in 1972, Bapunagar Urdu 7 is a premier Co-educational Upper Primary School (Grades 6 to 8) located in Rakhiyal, Ahmedabad. 
                 With a rich heritage of providing quality education through the Urdu medium, our dedicated faculty works tirelessly to ensure 
                 that every student reaches their full potential in a safe and engaging environment.
               </p>
               <p>
-                Under the guidance of our Head Teacher, Mr. Nizamuddin, and our experienced staff of 10 teachers, we focus on academic excellence, 
-                cultural values, and empowering our young girls to become responsible leaders of tomorrow.
+                Under the guidance of our Head Teacher, Noorjahan Banu M Shaikh, and our experienced staff of 10 teachers, we focus on academic excellence, 
+                cultural values, and empowering our students to become responsible leaders of tomorrow.
               </p>
             </div>
             <div className="about-features">
