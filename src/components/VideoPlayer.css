@@ -1,15 +1,23 @@
 .video-card {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: #ffffff;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.video-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px -4px rgba(0, 51, 102, 0.15);
 }
 
 .video-wrapper {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
-  height: 0;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  background-color: #0f172a;
   overflow: hidden;
-  background-color: #000;
 }
 
 .video-wrapper iframe {
@@ -18,20 +26,92 @@
   left: 0;
   width: 100%;
   height: 100%;
-  border: none;
+  border: 0;
+}
+
+.video-facade {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.video-card:hover .video-thumbnail {
+  transform: scale(1.05);
+}
+
+.play-button-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease;
+}
+
+.video-card:hover .play-button-overlay {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.play-circle {
+  width: 64px;
+  height: 64px;
+  background: #ff0000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 16px rgba(255, 0, 0, 0.4);
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.play-icon {
+  color: #ffffff;
+  margin-left: 4px;
+}
+
+.video-card:hover .play-circle {
+  transform: scale(1.15);
+}
+
+.watch-badge {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.75);
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 4px;
+  backdrop-filter: blur(2px);
 }
 
 .video-info {
   padding: var(--space-md);
-  background-color: var(--bg-white);
   flex-grow: 1;
+  display: flex;
+  align-items: center;
 }
 
 .video-info h3 {
-  font-size: 1.125rem;
+  font-size: 1rem;
+  line-height: 1.4;
   color: var(--primary-dark);
   font-weight: 600;
-  margin: 0;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;

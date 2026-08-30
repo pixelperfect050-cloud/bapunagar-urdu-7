@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, Image as ImageIcon, PlayCircle, Book, Monitor, Building, Droplets, Zap, Accessibility, Activity } from 'lucide-react';
+import { ArrowRight, Image as ImageIcon, PlayCircle, Book, Monitor, Building, Droplets, Accessibility, Activity } from 'lucide-react';
 import './Home.css';
 
 export default function Home() {
